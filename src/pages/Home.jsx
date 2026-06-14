@@ -183,6 +183,14 @@ export default function Home() {
             >
               Kaggle
             </a>
+            <a
+              href="https://huggingface.co/Jyqti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link"
+            >
+              HuggingFace
+            </a>
           </div>
         </div>
       </footer>
