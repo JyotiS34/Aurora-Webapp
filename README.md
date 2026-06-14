@@ -31,7 +31,7 @@ The API adapter is in `src/lib/api.js`. Edit `buildBody()` and `parseResponse()`
 ```
 POST /predict
 Body:     { "text": "...", "entity": "..." }
-Response: { "label": "Positive", "scores": { "Positive": 0.82, "Negative": 0.05, "Neutral": 0.08, "Mixed": 0.05 }, "latency_ms": 120 }
+Response: { "label": "Positive", "scores": { "Positive": 0.82, "Negative": 0.05, "Neutral": 0.08, "Irrelevant": 0.05 }, "latency_ms": 120 }
 
 GET /health  →  200 OK
 ```
@@ -40,7 +40,7 @@ GET /health  →  200 OK
 
 ```bash
 npm run build
-vercel deploy          # or push to GitHub and connect repo in Vercel dashboard
+vercel deploy         
 ```
 
 Add `VITE_SENTIMENT_API_URL` in the Vercel project's Environment Variables settings.
