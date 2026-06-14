@@ -1,4 +1,4 @@
-# Aurora Sentiment
+# Aurora 
 
 A portfolio webapp showcasing an entity-aware BERT sentiment classifier — live demo, training deep-dive, and distributed pipeline visualisation.
 
