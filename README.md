@@ -69,3 +69,4 @@ src/
     Pipeline.jsx
   global.css        ← Full design system (tokens, components, layout)
 ```
+**Built with Claude.ai**
